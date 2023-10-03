@@ -1,0 +1,158 @@
+.container {
+    display: flex; 
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 20px; 
+    padding-left: 200px; 
+    padding-right: 200px; 
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex; 
+    gap: 10px;
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.section-1 { 
+    display: flex; 
+    justify-content: space-between;
+    padding: 50px 200px;
+    background-color: #1F2937; 
+    gap: 50px; 
+    flex-wrap: wrap;
+}
+
+.text-section1 {
+    width: 500px;
+}
+
+.title {
+    color: #F9FAF8; 
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.info {
+    color: #E5E7EB; 
+    font-size: 18px;
+    padding-bottom: 16px;
+    padding-top: 10px;
+}
+
+.button-one {
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 12px;
+    border-style: none; 
+}
+
+.section-2 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px; 
+}
+
+.likes {
+    font-size: 36px; 
+    font-weight: 900;
+    color: #1F2937; 
+    padding-bottom: 50px;
+    text-align: center; 
+}
+
+.cardbox {
+    display: flex; 
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.subtext {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.section-3 {
+    display: flex; 
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    align-self: flex-end;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.box {
+    background-color: #3882F6;
+    margin: 100px 200px; 
+    padding: 30px 70px; 
+    color: #E5E7EB; 
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactfile {
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.contactdetails {
+    font-weight: 200;
+    font-size: 12px;
+    padding-top: 4px; 
+    margin-bottom: 8px; 
+}
+
+.button-two {
+    border-radius: 10px;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 12px;
+    border-style: solid;
+    flex-shrink: 0; 
+}
+
+.footer { 
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 12px;
+    padding: 20px;
+}
